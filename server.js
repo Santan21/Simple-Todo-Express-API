@@ -81,5 +81,5 @@ const todos = [
   
   // App listens to incoming requests here
   app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`App listening at http://localhost:${3000}`);
   });
