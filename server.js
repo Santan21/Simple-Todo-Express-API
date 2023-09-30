@@ -34,7 +34,7 @@ const todos = [
       completed: true,
     },
   ];
-  // SOURCE ENDS HERE
+  // DATA SOURCE ENDS HERE
 
   //ENDPOINTS START HERE
   app.get("/", (request, response) => {
@@ -77,9 +77,9 @@ const todos = [
     }
     response.status(404).json({ msg: "Todo not found" });
   });
-  // Endppoint ends here
+  // Endpoint ends here
   
-  // App listens to incoming requests here
+  // The App listens to incoming requests here
   app.listen(port, () => {
     console.log(`App listening at http://localhost:${3000}`);
   });
