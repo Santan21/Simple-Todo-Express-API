@@ -11,8 +11,14 @@ const todos = [
     },
   
     {
-      title: "Todo 2",
-      desc: "This is my second Todo",
+     title: "Todo 2",
+     desc: "Second one here",
+     completed:false,
+    },
+
+    {
+      title: "Todo 3",
+      desc: "This is my third",
       completed: true,
     },
   
